@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: white;
+}
+#body{
+  padding-top: 70px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header{
+    color: black;
+}
+
+
+.navbar-fixed-top {
+
+position: fixed;
+
+right: 0;
+
+left: 0;
+
+z-index: 999;
+
+}
+
+circle {stroke:orange;fill-opacity:0.5;}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#scatterplot button {
+    background-color:#f2f2f2;
+    text-align:center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tooltip {
+	position: absolute;
+  display: none;
+  min-width: 60px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+  z-index: 999;
+  container: 'body';
+  placement: 'bottom';
+}
+
+.county {
+  stroke: black;
+  stroke-width: 1px;
+  fill: none;
+}
+
+.Chart{
+  display: inline;
+}
+.axis--map--captionB {
+  fill: black;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-anchor: start;
+  font-weight: bold;
+}
+.axis--map--captionO {
+  fill: black;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-anchor: start;
+  font-weight: bold;
+}
+.axis--map--captionT {
+  fill: black;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-anchor: start;
+  font-weight: bold;
+}
+.axis--map--captionV {
+  fill: black;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-anchor: start;
+  font-weight: bold;
+}
