@@ -1,6 +1,6 @@
 var hr_urlB = "https://raw.githubusercontent.com/jkastelan/DAA2018_jlk635/master/searchhr.json";
 
-var county_URLB = "https://raw.githubusercontent.com/TNRIS/tx.geojson/master/counties/tx_counties.geojson";
+var county_URLB = "https://raw.githubusercontent.com/princeaker/TexasTrafficStops/master/Texas_County_Boundaries.geojson";
 
 d3.queue()
 .defer(d3.json, hr_urlB)
@@ -422,7 +422,7 @@ var x = d3.scaleQuantile()
 
 var hr_urlO = "https://raw.githubusercontent.com/jkastelan/DAA2018_jlk635/master/contrahr.json";
 
-var county_URLO = "https://raw.githubusercontent.com/TNRIS/tx.geojson/master/counties/tx_counties.geojson";
+var county_URLO = "https://raw.githubusercontent.com/princeaker/TexasTrafficStops/master/Texas_County_Boundaries.geojson";
 
 d3.queue()
 .defer(d3.json, hr_urlO)
@@ -848,7 +848,7 @@ var Text = g.append('text')
 
 var thresh_url = "https://raw.githubusercontent.com/jkastelan/DAA2018_jlk635/master/thresh.json";
 
-var county_URLT = "https://raw.githubusercontent.com/TNRIS/tx.geojson/master/counties/tx_counties.geojson";
+var county_URLT = "https://raw.githubusercontent.com/princeaker/TexasTrafficStops/master/Texas_County_Boundaries.geojson";
 
 d3.queue()
 .defer(d3.json, thresh_url)
@@ -1272,7 +1272,7 @@ var Text = g.append('text')
 
 var vod_url = "https://raw.githubusercontent.com/jkastelan/DAA2018_jlk635/master/veil.json";
 
-var county_URLV = "https://raw.githubusercontent.com/TNRIS/tx.geojson/master/counties/tx_counties.geojson";
+var county_URLV = "https://raw.githubusercontent.com/princeaker/TexasTrafficStops/master/Texas_County_Boundaries.geojson";
 
 d3.queue()
 .defer(d3.json, vod_url)
